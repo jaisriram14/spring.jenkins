@@ -12,7 +12,7 @@ public class Application {
 	public static org.slf4j.Logger logger=LoggerFactory.getLogger(Application.class);
 	@PostConstruct
 	public void intt() {
-		logger.info("application execution started");
+		logger.info("application execution started just changed logger message");
 	}
 
 	public static void main(String[] args) {
