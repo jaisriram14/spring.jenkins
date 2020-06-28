@@ -17,6 +17,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		logger.info("application executed");
+		logger.info("application executed changed for secoend commit");
 		
 		SpringApplication.run(Application.class, args);
 	}

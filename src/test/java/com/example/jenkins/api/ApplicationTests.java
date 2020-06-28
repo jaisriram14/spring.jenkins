@@ -13,7 +13,7 @@ class ApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("test case executing");
+		logger.info("test case executing changed for secoend commit");
 		assertEquals("true", "true");
 	}
 
