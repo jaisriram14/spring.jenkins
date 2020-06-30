@@ -12,7 +12,7 @@ class ApplicationTests {
 	public static org.slf4j.Logger logger=LoggerFactory.getLogger(ApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("test case executing changed for secoend commit");
 		assertEquals("true", "true");
 	}
